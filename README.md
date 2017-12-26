@@ -54,15 +54,15 @@ var webpackConfig = {
 
 Partial ids are registered by `parentFolder/filename` (without file extensions)
 
-Use handlebars in your main and partials like, i.e.
+In this branch, use handlebars in your main and partials like, i.e.
 
 ```hbs
 <body>
-    {{> partialFolder/partialName}}
+    {{> partialName}}
 
-    {{> header/header title="page title"}}
+    {{> header title="page title"}}
 
-    {{> partial/content}}
+    {{> content}}
 </body>
 ```
 
