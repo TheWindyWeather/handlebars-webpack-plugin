@@ -5,7 +5,7 @@ const log = require("./log");
 
 
 function getId(path) {
-    return path.match(/\/([^/]+\/[^/]+)\.[^.]+$/).pop();
+    return path.match(/\/([^/]+)\.[^.]+$/).pop();
 }
 
 function resolve(Handlebars, partialsGlob) {
