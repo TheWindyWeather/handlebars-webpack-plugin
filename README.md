@@ -52,7 +52,7 @@ var webpackConfig = {
 };
 ```
 
-Partial ids are registered by `parentFolder/filename` (without file extensions)
+Partial ids are registered by `filename` (without file extensions and foldername).Different from the master branch, ids is simplified from `foldername/filename` to `filename` in this branch. And the foldername is same with filename in default.
 
 In this branch, use handlebars in your main and partials like, i.e.
 
